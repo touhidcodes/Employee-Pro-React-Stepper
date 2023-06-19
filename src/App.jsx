@@ -7,6 +7,9 @@ function App() {
 	return (
 		<>
 			<div className='w-10/12 mx-auto py-40'>
+				<div className='mx-auto'>
+					<h4 className='text-2xl font-semibold text-blue-600'>Employee Pro</h4>
+				</div>
 				<div className='grid grid-cols-8 gap-0 justify-center relative'>
 					<Stepper index='1' title='Application' />
 					<StepperTop index='2' title='Basic test' />
